@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Calculadora2.css">
+    <script type="text/JavaScript" src="Calculadora2.js"></script>
+
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <form action="#" name="calculadora" id="calculadora">
+        <p id="textoPantalla">0</p>
+		
+		<p class="botones">
+		<input class="signo" type="button6" value="MR"onclick="ultResultado()"/>
+		</p>
+		
+		<p class="botones">		
+        <input class="numero" type="button1" value="7" id="siete" onclick="numero('7')"/>
+        <input class="numero" type="button1" value="8" id="ocho" onclick="numero('8')"/>
+        <input class="numero" type="button1" value="9" id="nueve" onclick="numero('9')"/>
+        <input class="signo" type="button2" value="+" id="sumar" onclick="signo('+')"/>
+        </p>
+
+        <p class="botones">
+        <input class="numero" type="button1" value="4" id="cuatro" onclick="numero('4')"/>
+        <input class="numero" type="button1" value="5" id="cinco" onclick="numero('5')"/>
+        <input class="numero" type="button1" value="6" id="seis" onclick="numero('6')"/>
+        <input class="signo" type="button2" value="-" id="restar" onclick="signo('-')"/>
+        </p>
+
+        <p class="botones">
+        <input class="numero" type="button1" value="1" id="uno" onclick="numero('1')"/>
+        <input class="numero" type="button1" value="2" id="dos" onclick="numero('2')"/>
+        <input class="numero" type="button1"  value="3" id="tres" onclick="numero('3')"/>
+        <input class="signo" type="button2" value="x" id="multiplicar" onclick="signo('*')"/>
+        </p>
+
+        <p class="botones">
+		<input class="signo" type="button6" value="AC" id="resetear" onclick="borradoTotal()"/>	
+        <input class="numero" type="button4" value="0" id="cero" onclick="numero('0')"/>
+        <input class="signo" type="button5" value="=" id="igual" onclick="signoIgual('=');"/>
+        <input class="signo" type="button2" value="/"id="dividir" onclick="signo('/')"/>
+        </p>
+        </form>
+        </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body
+{
+	background-color:light-blue;
+}
+
+input{
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background: black;
+    border: 1px solid red;
+	font-size:20px;
+	
+}
+
+.numero{
+    background: #50595B;
+    border: 1px solid green;
+	color:#6B93DF;
+	font-size:20px;
+	cursor: pointer;
+}
+
+#textoPantalla{
+    background:blue;
+    border: 1px solid grey;
+    width: 100%%;
+    height: 50px;
+    line-height: 2;
+    color: white;
+	font-size:30px;
+    font-weight: 400;
+	cursor: default;
+}
+
+.botones{
+    margin-left: 2%;
+}
+.signo{
+	cursor: pointer;
+}
+
+#espacio{
+	visibility:hidden;
+}
